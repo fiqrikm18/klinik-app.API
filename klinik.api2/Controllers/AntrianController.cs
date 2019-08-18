@@ -40,6 +40,7 @@ namespace klinik.api2.Controllers
         [HttpGet("poli/{kode_poli}", Name ="kode_poli")]
         public int GetAntrianPoli(string kode_poli)
         {
+
             return antrianContext.GetAntrianPoli(kode_poli);
         }
     }
